@@ -2,8 +2,8 @@
 
 	START
 	LDX	#0
-	STS	#0	. S stores odd count
-	STT 	#0	. T stores even count
+	LDS	#0	. S stores odd count
+	LDT 	#0	. T stores even count
 LPSTART	LDA	ARR, X
 	DIV	#2
 	MUL	#2
